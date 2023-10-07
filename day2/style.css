@@ -1,0 +1,55 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: #2B2343;
+    font-weight: 500;
+    
+   
+}
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color:#2B2343;
+   color: #ffffff;
+   width: 99vw;
+   position: sticky;
+   top:0;
+   
+}
+
+#logo{
+    margin-left: 12px;
+    margin-top: 9px;
+    height: 50px;
+}
+ul{
+    margin-right: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+ul li{
+    list-style-type: none;
+    padding: 12px;
+    transition:ease-in
+}
+
+ul li:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.bor h1{
+    border: 12px solid #1b1724;
+    background-color: #2B2343;
+    color: #ffffff;
+    padding: 50px;
+    border-radius: 0 0 122px;
+    text-align: center;
+    margin-top: 1px;
+}

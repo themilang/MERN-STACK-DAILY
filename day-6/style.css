@@ -1,0 +1,20 @@
+.header{
+    padding: 15px 0;
+    display: flex;
+    width: 200px;
+    margin-left: 12px;
+    
+
+}
+
+header img{
+    width: 200px;
+}
+header p{
+    margin-left: 150px;
+}
+
+
+
+
+}

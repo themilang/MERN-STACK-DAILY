@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border: 12px solid black;
+}
+th , td {
+    border: 12px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    transition: ease-in;
+}
+th:hover{
+     transform: scale(1.4);
+     color: black;
+     background-color: aliceblue;
+     border-color: white;
+}
