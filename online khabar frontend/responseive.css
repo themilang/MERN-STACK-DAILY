@@ -1,0 +1,47 @@
+@media screen and (max-width:576px){
+   
+
+   
+    nav , .ad ,.nav2{
+     visibility: hidden;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        justify-content: space-around;
+    }
+    
+     
+
+     }
+
+   .headnews{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    cursor: pointer;
+    color: hsl(216.49,69.81%,20.78%);
+ }
+ .headnews:hover {
+    color: hsl(216.31,69.78%,44.12%);
+    ;
+
+ }
+ .headimg img{
+    width: 200px;
+align-self: center;  
+ margin: 12px;
+ margin-top: -12px;
+}
+}
+
+@media screen and (min-width:576px){
+    .s1{
+        visibility: hidden;
+    }
+    .s3{
+        visibility: hidden;
+    }
+}
